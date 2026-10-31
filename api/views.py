@@ -7,4 +7,4 @@ def health(request):
 
 @api_view(["GET"])
 def hello(request):
-    return Response({"message": "Hello from CSC 325"})
+    return Response({"message": "Hello from CSC 325", "author": "Oguz"})
